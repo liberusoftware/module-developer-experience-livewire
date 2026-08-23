@@ -12,7 +12,6 @@ final class DeveloperExperienceLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'developer-experience-livewire');
-        Livewire\Livewire::component('developer-experience-livewire-overview', Liberu\Foundation\DeveloperExperienceLivewire\Livewire\Overview::class);
+        Livewire::component('developer-experience-livewire-overview', Liberu\Foundation\DeveloperExperienceLivewire\Livewire\Overview::class);
     }
 }
-
